@@ -1,0 +1,14 @@
+#orange {
+    width: 150px;
+    height: 100px;
+	background-color: #F38630;
+	color: amber;
+	border-radius: 5px;
+	border: 4px solid #FA6900;
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	margin-right: 20px;
+}

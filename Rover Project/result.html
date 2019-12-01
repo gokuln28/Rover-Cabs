@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <link rel="icon" href="C:\Users\Gokul\Desktop\College\RoverProject\Images\rover.png">
+    <title>Rover cabs:Book cabs easily</title>
+</script>
+</head>
+<style>
+    body {
+    margin-left: auto;
+    margin-bottom:auto;
+    margin-right: auto;
+  }
+  .header {
+	width: 800px;
+	margin: 80px auto 0px;
+	color: white;
+	background:rgba(231, 201, 64, 0.979);
+	text-align: center;
+	border: 1px solid rgba(231, 201, 64, 0.979);
+	border-radius: 10px 10px;
+	padding: 25px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+div.a{
+      padding:20px;
+      margin-top:30px;
+      height:120px;
+      font-size: 20px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: rgba(231, 201, 64, 0.979);
+	border: none;
+	border-radius: 5px;
+	
+}
+
+    div {
+    border-radius: 5px;
+    padding: 20px;
+}
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: rgba(231, 201, 64, 0.979);
+	border: none;
+	border-radius: 5px;
+}
+div, .content {
+	width: 804px;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: white;
+	border-radius: 10px 10px 10px 10px;
+}
+ 
+</style>
+<body>
+<!-- Navigation -->
+<ol>
+    <link rel="stylesheet" type="text/css" href="navbar.css">
+    <li><a href="indexreal.php">Home</a></li>
+    <li><a href="about.php">About</a></li>
+ </ol>
+<div class="header">
+<h1 align="center">Thank you for booking with us!</h1>
+<h1 align="center">Your Booking Details</h1></div>
+<div>
+<strong><h3>Name:<?php echo $_POST['name'];?></h3></strong><br>
+<strong><h3>Journey Type:<?php echo $_POST['type'];?></h3></strong><br>
+<strong><h3>Pickup Location:<?php echo $_POST['start'];?></h3></strong><br>
+<strong><h3>Drop Location:<?php echo $_POST['end'];?></h3></strong><br>
+<strong><h3>Cab type:<?php echo $_POST['type'];?></h3></strong><br>
+<strong><h3>Date of journey:<?php echo $_POST['date'];?></h3></strong><br>
+<strong><h3>Time of journey:<?php echo $_POST['time'];?></h3></strong><br>
+<strong><h3>Mobile Number:<?php echo $_POST['number'];?></h3></strong>
+        <center><button type="submit" class="btn" name="submit">Back to main menu</button>&nbsp;
+        <button type="submit" class="btn" name="submit">Book again</button>
+</div>    
+</body>
+</html>
